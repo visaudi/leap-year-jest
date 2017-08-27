@@ -1,0 +1,25 @@
+{
+  "name": "leap-year-redux-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "leap.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visaudi/leap-year-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visaudi/leap-year-jest/issues"
+  },
+  "homepage": "https://github.com/visaudi/leap-year-jest#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "redux": "^3.7.2"
+  }
+}
