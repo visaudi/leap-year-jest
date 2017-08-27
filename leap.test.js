@@ -20,3 +20,8 @@ test("every one hundred years we take away one of our leap years", function () {
     store.dispatch(changeYear(1900));
     expect(store.getState().isLeap).toBe(false);
 });
+
+test("every four hundred years we bring a leap year back", function () {
+    store.dispatch(changeYear(2000));
+    expect(store.getState().isLeap).toBe(true);
+});
